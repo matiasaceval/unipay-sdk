@@ -11,7 +11,7 @@ Clientes oficiales de la API de UniPay. Este repositorio está pensado para pode
 | `@unipay/mcp` | Servidor MCP local (stdio) para que agentes de IA consulten terminales y pagos e inicien cobros con confirmación |
 
 ## Requisito de uso
-Ambos necesitan una **credencial de plataforma** (`upk_test_…` o `upk_live_…`) de un cliente con **suscripción vigente**. El control lo hace la API: el SDK y el MCP no pueden saltearlo.
+Ambos necesitan una **credencial de plataforma** (`upk_test_…` o `upk_live_…`). Las claves de prueba (`upk_test_…`) son gratis y no vencen; las reales (`upk_live_…`) necesitan un cliente con **suscripción vigente**. El control lo hace la API: el SDK y el MCP no pueden saltearlo.
 
 ## Contrato
 Los tipos se generan desde el OpenAPI publicado por la API (`unipay.v1.yaml`). Ver [docs/CONTRACT.md](docs/CONTRACT.md).
